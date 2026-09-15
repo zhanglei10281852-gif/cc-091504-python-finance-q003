@@ -1,0 +1,13 @@
+{
+  "award_types": [
+    "RSU",
+    "option",
+    "restricted_share"
+  ],
+  "settlement_modes": [
+    "gross",
+    "net_share",
+    "sell_to_cover"
+  ],
+  "date_timezone": "Asia/Shanghai"
+}
