@@ -9,5 +9,31 @@
     "net_share",
     "sell_to_cover"
   ],
-  "date_timezone": "Asia/Shanghai"
+  "tranche_statuses": [
+    "PENDING",
+    "LOCKED",
+    "RELEASABLE",
+    "SETTLED",
+    "FORFEITED"
+  ],
+  "review_roles": [
+    "HR",
+    "PAYROLL",
+    "STOCK_ADMIN"
+  ],
+  "termination_types": [
+    "voluntary",
+    "involuntary",
+    "for_cause",
+    "retirement",
+    "death_disability"
+  ],
+  "date_timezone": "Asia/Shanghai",
+  "precision": {
+    "money_decimals": 2,
+    "money_rounding": "ROUND_HALF_UP",
+    "share_delivery": "floor",
+    "tax_share_cover": "ceil",
+    "fractional_share": "cash_in_lieu"
+  }
 }
